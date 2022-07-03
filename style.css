@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+}
+
+.section_for_flex {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.top_banner {
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.orange-color {
+    color: tomato;
+}
+
+.hire-me-button {
+    text-decoration: none;
+    padding: 10px 25px;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.u-top-banner {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.dream_big {
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.u-dream-big {
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.images-for-port {
+    width: 80%;
+    border: 7px solid tomato;
+    border-radius: 50%;
+}
+
+.dream-img-w {
+    width: 100%;
+}
+
+.experience-for-bg {
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.u-experience {
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    border-left: 7px solid tomato;
+    box-shadow: 4px 9px 30px grey;
+}
+
+.blue-border {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
+}
